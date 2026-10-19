@@ -163,3 +163,18 @@ body.lb-open{overflow:hidden}
 @media (max-width:639px){.lb-nav{top:auto;bottom:14px;transform:none}}
 @media (min-width:640px){.gallery{grid-template-columns:1fr 1fr}.filters{justify-content:center;flex-wrap:wrap;margin:0 0 32px;padding:0}}
 @media (min-width:900px){.gallery{grid-template-columns:repeat(3,1fr)}}
+/* photo hero + service images */
+.hero{background:linear-gradient(100deg,rgba(14,24,48,.92) 0%,rgba(20,33,61,.78) 45%,rgba(20,33,61,.35) 100%),url(../media/photos/hero.jpg) 75% center/cover no-repeat;color:#fff;padding:90px 0 100px}
+.hero-grid{grid-template-columns:1fr!important}
+.hero h1{color:#fff;max-width:760px}
+.hero .lead{color:#dfe5f1}
+.hero .eyebrow{color:var(--accent)}
+.hero .btn-ghost{color:#fff;border-color:rgba(255,255,255,.7)}
+.hero .btn-ghost:hover{background:#fff;color:var(--navy)}
+.hero-points{color:#e6eaf3}
+.hero-points li:before{border-color:var(--accent)}
+@media (min-width:900px){.hero{padding:150px 0 160px}}
+.card{overflow:hidden}
+.card-img{display:block;height:auto;width:calc(100% + 64px);margin:-32px -32px 0;aspect-ratio:16/10;object-fit:cover}
+.card .icon{position:relative;margin-top:-26px;box-shadow:0 8px 20px rgba(20,33,61,.15)}
+.g-note{text-align:center;color:var(--muted);font-size:.85rem;margin:-30px 0 22px;font-style:italic}
