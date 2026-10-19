@@ -1,0 +1,5 @@
+// Replace with the real number. PHONE_DISPLAY is shown on the site; PHONE_E164 is digits only (country code first) for tel:/wa.me links.
+window.SITE_CONFIG = {
+  PHONE_DISPLAY: "+30 69X XXX XXXX",
+  PHONE_E164: "3069XXXXXXXX"
+};

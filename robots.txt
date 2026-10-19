@@ -1,0 +1,4 @@
+# Replace https://athenspainting.github.io with the live domain (also in sitemap.xml)
+User-agent: *
+Allow: /
+Sitemap: https://athenspainting.github.io/sitemap.xml
